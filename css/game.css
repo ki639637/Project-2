@@ -1,0 +1,29 @@
+.background    { background: rgb(19, 43, 41);
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background-image: url("lava.png"); }
+.bees          { background-image: url("bee.png"); }
+.wall          { background-image: url("wall.png");   }
+.jumppad       { background-image: url("jumppad.png"); }
+.levelWin       { background-image: url("levelwin.png"); }
+.flag           { background: rgb(137, 116, 25); }
+
+.actor  { position: absolute;  }
+.coin   { background-image: url("coin.png"); }
+.player { background-image: url("cosmetta.png");
+			background-repeat: no-repeat;
+			background-size: 16px 30px; }
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background: rgb(160, 64, 64);
+}
+.won .player {
+  box-shadow: -4px -7px 8px gold, 4px -7px 8px gold;
+}
